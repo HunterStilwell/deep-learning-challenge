@@ -14,7 +14,7 @@ The purpose of this analysis was to create a tool to help Alphabet Soup determin
     * Removed Variables: EIN and NAME columns
 * Compiling, Training, and Evaluating the Model
     * I selected three layers, with 60, 30, and 1 neuron(s) respectively. An initial layer with 60 neurons and an activation function of relu. A second layer with 30 neurons again using relu. And a final output layer with 1 neuron that used a sigmoid function.
-    * I was not able to acheive the target model performance with this model.
+    * I was not able to acheive the target model performance of 75% with this model. The model's accuracy was 72.9%.
     * I took multiple steps to increase the model performance, including using keras tuner and hyperband to search for the best hyperparameters. I also used a random forest classifier model and learned which columns were the least important in that model. I then removed those columns from the training and testing datasets. Then I added more neuron layers and neurons to the model while adjusting the number of epochs.
 
 ### Summary
